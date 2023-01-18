@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(211, 168, 251);
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+.OuterBox{
+    display: flex;
+    justify-content: center;
+}
+.MainBox{
+   background-color: antiquewhite;
+   height: 40vh;
+   width: 50%;
+}
+.Inputs{
+    display: flex;
+   justify-content: center;
+}
+button{
+      margin: 1px;
+      margin-left: 5px;
+      margin-right: 5px;
+      padding: 5px;
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: large;
+      background-color: aqua;
+      border: 2px solid black;
+      border-radius: 50%;
+}
+button:hover{
+    background-color: rgb(27, 175, 175);
+}
+input{
+    margin: 2px;
+    padding: 5px;
+    background-color: rgb(151, 244, 244);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.Data li{
+  font-size: 20px;
+  color: rgb(190, 55, 55);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ol{
+    list-style-type: none;
+}
+.Item-detail{
+    display: flex; 
+    justify-content: flex-start;
+}
+.Item-detail i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   color: #5f2e9b;
+    margin: 0 15px 0 35px;
+    box-shadow:  5px 5px 15px -5px rgba(0, 0,0, 0.3);
+}
+.Item-detail i:hover{
+    color: rgb(180, 24, 24);
+}
+
+
+
+
